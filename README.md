@@ -11,7 +11,7 @@
   * Noun Phrase Extraction
   * Translation
 - TextBlob is built on top of **NLTK** and **Pattern** libraries.
-
+---
 ## Objective
 In this App, we are using TextBlob for **Sentiment Analysis**, **Tokenization** and **POS Tagging**.
 
