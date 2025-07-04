@@ -3,15 +3,15 @@ from textblob import TextBlob
 import nltk
 nltk.download('punkt')
 nltk.download('punkt_tab')
-# nltk.download('averaged_perceptron_tagger')
-# nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 
 # Sentiment Analysis
 text = "I love learning Python!"
 blob = TextBlob(text)
 st.header("Sentiment Analysis")
-st.write("Input Text :-", text)
-st.write("Output :-", blob.sentiment)
+st.subheader("Input Text :-", text)
+st.subheader("Output :-", blob.sentiment)
 
 # Tokenization
 blob = TextBlob("Natural Language Processing is fun.")
