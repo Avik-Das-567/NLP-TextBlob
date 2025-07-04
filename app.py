@@ -10,8 +10,8 @@ nltk.download('averaged_perceptron_tagger_eng')
 text = "I love learning Python!"
 blob = TextBlob(text)
 st.header("Sentiment Analysis")
-st.subheader("Input Text :-", text)
-st.subheader("Output :-", blob.sentiment)
+st.write("Input Text :-", text)
+st.write("Output :-", blob.sentiment)
 
 # Tokenization
 blob = TextBlob("Natural Language Processing is fun.")
